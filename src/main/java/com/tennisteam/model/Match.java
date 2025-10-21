@@ -21,6 +21,9 @@ public class Match {
         this.scoreB = scoreB;
     }
 
+    public Match(String teamA, String teamB, String teamA1) {
+    }
+
     public LocalDate getDate() { return date; }
     public String getTeamA() { return teamA; }
     public String getTeamB() { return teamB; }
